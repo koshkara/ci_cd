@@ -1,0 +1,19 @@
+cp ../../materials/linters/.clang-format
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
+cp ../../materials/linters/.clang-format ./
+clang-format -n *.c
