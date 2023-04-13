@@ -1,5 +1,0 @@
-on:
-  push:
-    branch: develop
-jobs:
-  build:
