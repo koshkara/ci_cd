@@ -1,0 +1,87 @@
+s21_cat.c:152:21: warning: code should be clang-formatted [-Wclang-format-violations]
+        switch (j) {
+                    ^
+s21_cat.c:153:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 0:
+               ^
+s21_cat.c:154:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 1:
+               ^
+s21_cat.c:155:29: warning: code should be clang-formatted [-Wclang-format-violations]
+          flagB = flag_b_on;
+                            ^
+s21_cat.c:156:15: warning: code should be clang-formatted [-Wclang-format-violations]
+          n++;
+              ^
+s21_cat.c:157:17: warning: code should be clang-formatted [-Wclang-format-violations]
+          break;
+                ^
+s21_cat.c:158:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 2:
+               ^
+s21_cat.c:159:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 3:
+               ^
+s21_cat.c:160:29: warning: code should be clang-formatted [-Wclang-format-violations]
+          flagE = flag_e_on;
+                            ^
+s21_cat.c:161:15: warning: code should be clang-formatted [-Wclang-format-violations]
+          n++;
+              ^
+s21_cat.c:162:17: warning: code should be clang-formatted [-Wclang-format-violations]
+          break;
+                ^
+s21_cat.c:163:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 4:
+               ^
+s21_cat.c:164:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 5:
+               ^
+s21_cat.c:165:29: warning: code should be clang-formatted [-Wclang-format-violations]
+          flagN = flag_n_on;
+                            ^
+s21_cat.c:166:15: warning: code should be clang-formatted [-Wclang-format-violations]
+          n++;
+              ^
+s21_cat.c:167:17: warning: code should be clang-formatted [-Wclang-format-violations]
+          break;
+                ^
+s21_cat.c:168:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 6:
+               ^
+s21_cat.c:169:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 7:
+               ^
+s21_cat.c:170:29: warning: code should be clang-formatted [-Wclang-format-violations]
+          flagS = flag_s_on;
+                            ^
+s21_cat.c:171:15: warning: code should be clang-formatted [-Wclang-format-violations]
+          n++;
+              ^
+s21_cat.c:172:17: warning: code should be clang-formatted [-Wclang-format-violations]
+          break;
+                ^
+s21_cat.c:173:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 8:
+               ^
+s21_cat.c:174:16: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 9:
+               ^
+s21_cat.c:175:29: warning: code should be clang-formatted [-Wclang-format-violations]
+          flagT = flag_t_on;
+                            ^
+s21_cat.c:176:15: warning: code should be clang-formatted [-Wclang-format-violations]
+          n++;
+              ^
+s21_cat.c:177:17: warning: code should be clang-formatted [-Wclang-format-violations]
+          break;
+                ^
+s21_cat.c:178:17: warning: code should be clang-formatted [-Wclang-format-violations]
+        case 10:
+                ^
+s21_cat.c:179:29: warning: code should be clang-formatted [-Wclang-format-violations]
+          flagV = flag_v_on;
+                            ^
+s21_cat.c:180:15: warning: code should be clang-formatted [-Wclang-format-violations]
+          n++;
+              ^

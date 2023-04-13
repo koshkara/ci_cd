@@ -1,0 +1,40 @@
+stages:
+  - build
+  - style
+  - test
+  - deploy
+build-job:
+  stage: build
+  tags:
+    - first
+  script:
+    - bash src/build.sh
+  artifacts:
+    paths:
+      - src/cat/s21_cat
+      - src/grep/s21_grep
+    expire_in: 30 days
+style-job:
+  stage: style
+  tags:
+    - first
+  script:
+    - bash src/style.sh
+test-job:
+  stage: test
+  tags:
+    - first
+  dependencies:
+    - build-job
+  script:
+    - bash src/test.sh
+deploy-job:
+  stage: deploy
+  tags:
+    - first
+  when: manual
+  dependencies:
+    - build-job
+  script:
+    - bash src/deploy.sh
+  allow_failure: false
